@@ -9,7 +9,6 @@ namespace Lab2
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello World!");
             Encoding enc = Encoding.Default;
             string Test = "The quick brown fox jumps over the lazy dog";
             byte[] rest = enc.GetBytes(Test);
